@@ -5,8 +5,7 @@
 
 * Пример использования
 #+BEGIN_SRC python
-crypt = NakacheSternCryptosystem([3, 5, 7, 11, 13, 17], 101, 191, 131)
-print(crypt.decrypt(crypt.encrypt(202)))
+crypt = NakacheSternCryptosystem([3, 5, 7 11, 13, 17], 101, 191, 131)
+print(crypt.decrypt(crypt.encrypt(202)))# 202
 #+END_SRC 
-202
 
